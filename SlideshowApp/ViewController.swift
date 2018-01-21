@@ -24,9 +24,14 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
     
-    //最初の写真を表示する
+    //最初の写真を表示
         let FirstPicture = UIImage(named: "IMG_0396.jpg")
         
+    //進むボタンで次の写真に移動
+        
+    //戻るボタンで前の写真に移動
+        
+    
         
         
         
@@ -34,7 +39,7 @@ class ViewController: UIViewController {
         
         
     //写真をタップしたら遷移するコード
-        let tap = UITapGestureRecognizer(target: self, action: #selector(FirstPicture.tap(_:)))
+        let tap = UITapGestureRecognizer(target: self, action: #selector(UIImageView.viewTap(_:)))
         
         self.view.addGestureRecognizer(tap)
         
