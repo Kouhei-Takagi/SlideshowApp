@@ -43,6 +43,9 @@
                     </view>
                     <connections>
                         <outlet property="FirstPicture" destination="kDk-ic-jRi" id="Jpf-q0-Y3Z"/>
+                        <outlet property="back" destination="yna-u0-FIk" id="noG-Ix-Meh"/>
+                        <outlet property="go" destination="Ex7-cV-ohr" id="xfn-YB-4bP"/>
+                        <outlet property="slide" destination="rXz-Kq-4FV" id="TMz-Ba-6Bz"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
